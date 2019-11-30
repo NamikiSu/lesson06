@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | RCU DESIGN</title>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,12 +11,13 @@
 </head>
 <body>
     <header>
-        <h1><img src="img/logo.svg" alt="RCU DESIGN">RCU DESIGN</h1>
+        <h1><img src="img/logo.svg" alt="RCU DESIGN"></h1>
         <nav>
             <div class="container">
-                <h2><img src="img/logo.svg" alt="RCU DESIGN">RCU DESIGN</h2>
+                <h2><img src="img/logo.svg" alt="RCU DESIGN"></h2>
                 <ul class="nav-list">
-                    <li><a href="#">HOM</a></li>
+
+                    <li class="current"><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">WORKS</a></li>
                     <li><a href="#">CONTACT</a></li>
@@ -25,101 +27,97 @@
             </div>
         </nav>
     </header>
-    
-    <!-- /header-->
+    <!-- /header -->
+​
     <main>
         <section class="work-area">
             <h2 class="second-ttl">WORKS</h2>
             <p class="sub-ttl">これまでの制作事例を紹介</p>
             <div class="work-block">
-                <section class="glaphic">
+                <section class="graphic">
                     <h3>GRAPHIC</h3>
                 </section>
-                <section class="SIGNAGE / VR">
+                <section class="signage-vr">
                     <h3>SIGNAGE / VR</h3>
                 </section>
-                <section class="UI / UX">
-                     <h3>UI / UX</h3>
-                </section> 
-                </div>
-                <p class="btn"><a href="#">VIEW  MORE<i class="fas fa-chevron-right"></i></a></p>
+                <section class="ui-ux">
+                    <h3>UI / UX</h3>
+                </section>
+            </div>
+            <p class="btn"><a href="#">VIEW MORE<i class="fas fa-chevron-right"></i></a></p>
         </section>
-        
-   <!-----news-area-->
+        <!-- /.work-area -->
+​
         <section class="news-area">
-                <h2 class="second-ttl">WORKS</h2>
-                <p class="sub-ttl">これまでの制作事例を紹介</p>
-                <div class="news-block-container">
-                    <article class="news-block">
-
-                <figre><img src="img/news01.png"><figre>
-                <div class="news-box">
-                    <div class="news-date">
-                        <time datatime="2019-10-19">2019-10-19</time>
-                        <p news-category news-category-seminar>Seminer</p>
-                        <h3>VR セミナー　"Make :: VR"を11月0日(金)に開催します。</h3>
+            <h2 class="second-ttl">WORKS</h2>
+            <p class="sub-ttl">最新のイベントや更新情報</p>
+            <div class="news-block-container">
+                <article class="news-block">
+                    <figure><img src="img/news01.png" alt="VRセミナー"></figure>
+                    <div class="news-box">
+                        <div class="news-date">
+                            <time datatime="2019-10-19">2019.10.19</time>
+                            <p class="news-category news-category-seminar">Seminar</p>
+                        </div>
+                        <h3>VR セミナー　“Make :: VR” を11月0日（金）開催します。</h3>
                     </div>
                 </article>
-
+​
                 <article class="news-block">
-                        <figure><img src="img/news02.png" alt="サービスデザインUX"></figure>
-                        <div class="news-box">
-                            <div class="news-date">
-                                <time datatime="2019-9-15">2019.09.15</time>
-                                <p news-category news-category-media>Media</p>
-                            </div>
-                            <h3>DH MEDIA に弊社デザイナーが “サービスデザインUX”を寄稿いたしました。</h3>
+                    <figure><img src="img/news02.png" alt="サービスデザインUX"></figure>
+                    <div class="news-box">
+                        <div class="news-date">
+                            <time datatime="2019-9-15">2019.09.15</time>
+                            <p class="news-category news-category-media">Media</p>
                         </div>
-                    </article>
-    ​
-                    <article class="news-block">
-                        <figure><img src="img/news03.png" alt="エンジニア募集"></figure>
-                        <div class="news-box">
-                            <div class="news-date">
-                                <time datatime="2019-9-1">2019.09.01</time>
-                                <p news-category news-category-recruit>Recruit</p>
-                            </div>
-                            <h3>フロントエンジニア、サーバーサイドエンジニア、アプリエンジニアを募集しています。</h3>
+                        <h3>DH MEDIA に弊社デザイナーが “サービスデザインUX”を寄稿いたしました。</h3>
+                    </div>
+                </article>
+​
+                <article class="news-block">
+                    <figure><img src="img/news03.png" alt="エンジニア募集"></figure>
+                    <div class="news-box">
+                        <div class="news-date">
+                            <time datatime="2019-9-1">2019.09.01</time>
+                            <p class="news-category news-category-recruit">Recruit</p>
                         </div>
-                    </article>
-                </div>
-                <!-- /.news-block-container -->
-                <p class="btn"><a href="#">VIEW MORE<i class="fas fa-chevron-right"></i></a></p>
-            </section>
-        </main>
-        <!-- /main -->
+                        <h3>フロントエンジニア、サーバーサイドエンジニア、アプリエンジニアを募集しています。</h3>
+                    </div>
+                </article>
+            </div>
+            <!-- /.news-block-container -->
+            <p class="btn"><a href="#">VIEW MORE<i class="fas fa-chevron-right"></i></a></p>
+        </section>
+    </main>
+    <!-- /main -->
+​
     <footer>
-        <h1><img src="img/logo.svg"></h1>
+        <h1><img src="img/logo.svg" alt="RCU DESIGN"></h1>
         <nav>
             <ul class="footer-nav-global">
-                    <ul class="nav-list">
-                        <li><a href="#">HOM</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">WORKS</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                        <ul class="footer-nav-sns">
-
-                        </ul>
-                             <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
-                        </ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WORKS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="footer-nav-sns">
+                <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+            </ul>
         </nav>
         <address>
-            <p>2F 21-23-1 Shibuya, Shibuya-ku,
-                    Tokyo, Japan,150-0002
-                    
-            </p>
-            <p>150-0002 東京都渋谷区渋谷１丁目23-21
-                    渋谷キャスト2F
-            </p>
+            <p>2F 21-23-1 Shibuya, Shibuya-ku,<br>
+                Tokyo, Japan,150-0002</p>
+            <p>150-0002 東京都渋谷区渋谷１丁目23-21<br>
+                渋谷キャスト2F</p>
         </address>
-
-        <small>&copy;copyright RCU DESIGN Inc. All Right Reserved
-        </small>
+        <small>&copy;copyright RCU DESIGN Inc. All Right Reserved</small>
     </footer>
-    
+    <!-- /footer -->
 </body>
 </html>
+
+
+
+
+
